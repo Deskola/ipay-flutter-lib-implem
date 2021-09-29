@@ -98,10 +98,10 @@ packages:
   ipaycheckout:
     dependency: "direct main"
     description:
-      path: "C:\\Users\\ipay\\Documents\\Projects\\Flt_Packages\\ipaycheckout"
-      relative: false
-    source: path
-    version: "0.0.1"
+      name: ipaycheckout
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2"
   lints:
     dependency: transitive
     description:
