@@ -29,9 +29,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
               onWebViewCreated: (WebViewController webViewController) {
                 _controller.complete(webViewController);
               },
-              onProgress: (int progress) {
-                print("WebView is loading (progress : $progress%)");
-              },
+              onProgress: (int progress) {},
               javascriptChannels: <JavascriptChannel>{
                 _toasterJavascriptChannel(context),
               },

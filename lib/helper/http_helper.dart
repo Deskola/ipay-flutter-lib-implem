@@ -18,7 +18,21 @@ class HttpHelper {
         curr: currency,
         cbk: callBackUrl,
         cst: cst,
-        crl: crl);
+        crl: crl,
+        mpesa: mpesa,
+        bonga: bonga,
+        airtel: airtel,
+        equity: equity,
+        mobilebanking: mobilebanking,
+        creditcard: creditcard,
+        mkoporahisi: mkoporahisi,
+        saida: saida,
+        elipa: elipa,
+        unionpay: unionpay,
+        mvisa: mvisa,
+        vooma: vooma,
+        pesalink: pesalink,
+        autopay: autopay);
 
     return url;
   }
